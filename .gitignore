@@ -1,0 +1,37 @@
+# ignore data files
+*.h5
+data/test_cities/
+
+# ignore zip files
+*.zip
+
+# ignore python compile
+*.pyc
+*__pycache__
+*.py.swp
+
+# ignore downloaded online resource
+*opensource_code
+
+# ignore backups
+backups
+
+# ignore saved trained models and training history
+trained_models
+
+.envPath
+*.png
+*.eps
+
+# ignore script of running experiments
+**/repeatExpers.py
+**/load_accuracy.py
+**/plot_train_history.py
+**/mean_confusion_matrix.py
+**/*.mat
+# ignore experiment output
+**/*outcome*
+**/*backup*
+
+# ignore local environment setting
+.envPath
